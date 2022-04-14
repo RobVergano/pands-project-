@@ -1,4 +1,4 @@
-# codetest.py ####
+# codetest.py tut
 # This program checks the availability and version of the libraries used in the project.
 # Author: Roberto Vergano
 
