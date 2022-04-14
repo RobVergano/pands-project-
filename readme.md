@@ -16,10 +16,10 @@ Secondly, if a relationship is found, how it compares with the different classes
 
 3. SOFTWARE USED.
 
-Visual studio.
+Visual studio Code
 Git Hub.
 
-1. INTRODUCTION
+4. INTRODUCTION
 
 Introduced by Ronald Fisher in his paper "The use of multiple measurements in taxonomic problems", it includes three iris species with 50 samples each and also some properties about each flower.(1)
 
@@ -33,6 +33,10 @@ The attributes described in the dataset are:
 5. class: Iris Setosa, Iris Versicolor and Iris Virginica.(2)
 
 Based on these attributes, Fisher developed a linear discriminant analysis where the species can be differenciated from each other.(1)(2)
+
+5. SUMMARY OF EACH VARIABLE
+
+The Iris database was downloaded (2) and added to Visual Studio Code.
 
 
 References
