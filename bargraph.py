@@ -1,5 +1,5 @@
 # bargraph.py
-# This program creates a bar chart for four attributes based on the average per class.
+# This program creates a bar chart for the four attributes based on the average per class.
 # Author: Roberto Vergano
 
 

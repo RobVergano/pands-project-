@@ -1,7 +1,11 @@
 # analysis.py
+# This program outputs a text file with a summary of the variables and the 
+# Then outputs an histogram for each attribute and a scatter plot for each pair of variables.
+# Additionally, it adds summary of the variables per class.
 # Author: Roberto Vergano
-# 
-# ds = dataset
+
+# ds = iris dataset
+
 import pandas as pd
 import numpy as np
 from regex import F
