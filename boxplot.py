@@ -1,6 +1,6 @@
-#
-#
-#
+# boxplot.py
+# this program creates a boxplot based on petal length and petal width by class.
+# Author: Roberto Vergano
 
 import pandas as pd
 import numpy as np
