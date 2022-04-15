@@ -71,10 +71,10 @@ In order to give a neat appearance to the results I decided to calculate separat
 First, creating a variable for the dataframe of each attribute.(7)
 
 ``
-sl = ds["sepal_length"]
-sw = ds["sepal_width"]
-pl = ds["petal_length"]
-pw = ds["petal_width"]
+sl = ds["sepal_length"]  
+sw = ds["sepal_width"]  
+pl = ds["petal_length"]  
+pw = ds["petal_width"]  
 ``
 
 
