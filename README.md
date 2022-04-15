@@ -61,7 +61,7 @@ To obtain a summary of the variables we will use "describe", which generates a d
 
 References
 
-(1) https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
+(1) https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x</p>
 (2) https://archive.ics.uci.edu/ml/datasets/iris
 (3) https://stackoverflow.com/questions/36571560/directing-print-output-to-a-txt-file
 (4) https://www.w3schools.com/python/pandas/pandas_csv.asp
