@@ -7,7 +7,6 @@
 # ds = iris dataset
 
 import pandas as pd
-import numpy as np
 from regex import F
 
 f = open("summary of variables output.txt","a") 
@@ -21,7 +20,7 @@ print("NUMBER OF ROWS PER CLASS", file = f)
 print("\n", file = f)
 print(ds.groupby("class").size(), file = f)
 print("\n", file = f)
-print("SUMMATY OF VARIABLES", file = f)
+print("SUMMARY OF VARIABLES", file = f)
 print("\n", file = f)
 print(ds.describe(), file =f)
 print("\n", file = f)
