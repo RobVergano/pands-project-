@@ -62,7 +62,9 @@ To obtain a summary of the variables we will use "describe", which generates a d
 print(ds.describe(), file =f)
 ``
 
-![alt text](Summary of each variable.png)
+![alt text](C:\Users\ROB\Documents\GitHub\pands-project\Screenshots from analysis.py\Summary of each variable.png)
+
+
 
 
 
