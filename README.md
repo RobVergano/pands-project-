@@ -98,13 +98,14 @@ With the histogram we are going to check how the values for each attribute are d
 
 In order to do that, we are going to import matplotlib module and the scatter matrix from pandas.(13)(14)
 
-``import matplotlib.pyplot as plt 
 ``
-``
+import matplotlib.pyplot as plt 
+``  
+``  
 from pandas.plotting import scatter_matrix 
-``
+``  
 
-Then we will use the "hist" function to create the histogram.(14)
+Then we will use the "hist" function to create the histogram.(14)  
 ``
 ds.hist(figsize=(12,8))
 ``
