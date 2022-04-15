@@ -39,6 +39,7 @@ Based on these attributes, Fisher developed a linear discriminant analysis where
 The Iris database was downloaded (2) and added to the Pands-project repository.
 
 For the first task, I created a text file (3) where the summary of the variables will go.  
+
 ``  
 f = open("summary of variables output.txt","a")
 ``
@@ -51,11 +52,18 @@ ds = pd.read_csv("iris.csv")
 
 Using "groupby", we will check whether the dataset contains 50 samples per class as referenced at the introduction and save it into the text file.(5)
 
-   print(ds.groupby("class").size(), file = f)
+``
+print(ds.groupby("class").size(), file = f)
+``
 
 To obtain a summary of the variables we will use "describe", which generates a descriptive stadistic analysis of the mean, standard deviation, max, min and percentiles.(6)
 
-   print(ds.describe(), file =f)
+``
+print(ds.describe(), file =f)
+``
+
+![alt text](Summary of each variable.png)
+
 
 
 
