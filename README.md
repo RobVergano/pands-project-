@@ -77,11 +77,18 @@ pl = ds["petal_length"]
 pw = ds["petal_width"]
 ``
 
-Then calculating the mean,std, max and min to up to 2 decimals (8)(9)(10)(11)
+Then calculating the mean,std, max and min to up to 2 decimals (8)(9)(10)(11)  
 ``
 slm = round((sl.mean()),2)
 ``
-Using "format" we output the results for the mean and std for each variable.
+  
+Using "format" (12) we output the results for the mean and std for each variable in a single sentence. Similar approach was used to calculate the max and min.  
+  
+Figure 2. Summary of mean, std, max and min for each attribute.  
+
+![alt text] (https://github.com/RobVergano/pands-project-/blob/main/Screenshots%20from%20analysis.py/meanstdmaxmin.png)]
+
+
 
 
 
@@ -102,3 +109,4 @@ REFERENCES
 (9) https://www.geeksforgeeks.org/python-statistics-mean-function/
 (10)https://www.geeksforgeeks.org/max-min-python/
 (11)https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.std.html
+(12)https://www.edureka.co/blog/format-function-in-python/
