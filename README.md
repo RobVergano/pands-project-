@@ -16,7 +16,7 @@ Secondly, if a relationship is found, how it compares with the different classes
 
 ## 3. SOFTWARE USED.
 
-Visual studio Code
+Visual studio Code.  
 Git Hub.
 
 ## 4. INTRODUCTION
@@ -40,7 +40,7 @@ The Iris database was downloaded (2) and added to the Pands-project repository.
 
 For the first task, I created a text file (3) where the summary of the variables will go.
 
-   f = open("summary of variables output.txt","a") 
+** f = open("summary of variables output.txt","a") 
 
 Then, using the pandas module, the "ds" variable will read the iris database and we will be able to extract the data required. (4)
 
