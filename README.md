@@ -72,16 +72,9 @@ First, creating a variable for the dataframe of each attribute.(7)
 
 ``
 sl = ds["sepal_length"]
-``
-``` 
-sw = ds["sepal_width"]
-``
-``  
+sw = ds["sepal_width"]  
 pl = ds["petal_length"]
-``
-``  
 pw = ds["petal_width"]
-``
 ``  
 
 Then calculating the mean,std, max and min to up to 2 decimals (8)(9)(10)(11)  
