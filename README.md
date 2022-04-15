@@ -66,23 +66,30 @@ Figure 1. Summary of each variable.
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots%20from%20analysis.py/Summary%20of%20each%20variable.png)
 
-In order to give a neat appearance to the results I decided to calculate separately the mean, standard deviation, max and min. 
+In order to give a neat appearance to the results I decided to calculate separately the mean, standard deviation(std), max and min. 
 
 First, creating a variable for the dataframe of each attribute.(7)
 
 ``
-sl = ds["sepal_length"]``
-sw = ds["sepal_width"]``
-pl = ds["petal_length"]``
-pw = ds["petal_width"]``
+sl = ds["sepal_length"]
+sw = ds["sepal_width"]
+pl = ds["petal_length"]
+pw = ds["petal_width"]
 ``
 
+Then calculating the mean,std, max and min to up to 2 decimals (8)(9)(10)(11)
+``
+slm = round((sl.mean()),2)
+``
+Using "format" we output the results for the mean and std for each variable.
 
 
 
 
 
-References
+
+
+REFERENCES
 
 (1) https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x  
 (2) https://archive.ics.uci.edu/ml/datasets/iris  
@@ -91,4 +98,7 @@ References
 (5) https://www.geeksforgeeks.org/python-pandas-dataframe-groupby/  
 (6) https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html  
 (7) https://pandas.pydata.org/docs/user_guide/indexing.html
-
+(8) https://www.w3schools.com/python/ref_func_round.asp
+(9) https://www.geeksforgeeks.org/python-statistics-mean-function/
+(10)https://www.geeksforgeeks.org/max-min-python/
+(11)https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.std.html
