@@ -39,7 +39,7 @@ Based on these attributes, Fisher developed a linear discriminant analysis where
 The Iris database was downloaded (2) and added to the Pands-project repository.
 
 For the first task, I created a text file (3) where the summary of the variables will go.
-``python
+``  
 f = open("summary of variables output.txt","a")
 ``
 
