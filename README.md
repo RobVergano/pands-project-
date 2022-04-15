@@ -114,9 +114,13 @@ ds.hist(figsize=(12,8))
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Histogram/Histogram.png)
 
+The histogram shows a high variety in the values distribution, which it may be related to the differences between species.
+
+## 7. SCATTER PLOT OF EACH VARIABLE
 
 
 
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Scatter%20plot%20figures/Scatter%20plot.png)
 
 
 
