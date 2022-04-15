@@ -128,8 +128,6 @@ The histogram shows a high variety in the values distribution, which it may be r
 
 
 
-
-
 REFERENCES
 
 (1) https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x  
@@ -139,10 +137,12 @@ REFERENCES
 (5) https://www.geeksforgeeks.org/python-pandas-dataframe-groupby/  
 (6) https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html  
 (7) https://pandas.pydata.org/docs/user_guide/indexing.html
-(8) https://www.w3schools.com/python/ref_func_round.asp
-(9) https://www.geeksforgeeks.org/python-statistics-mean-function/
-(10)https://www.geeksforgeeks.org/max-min-python/
-(11)https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.std.html
-(12)https://www.edureka.co/blog/format-function-in-python/
-(13)https://pandas.pydata.org/docs/reference/api/pandas.plotting.scatter_matrix.html
-(14)https://matplotlib.org/3.5.0/gallery/statistics/hist.html
+(8) https://www.w3schools.com/python/ref_func_round.asp  
+(9) https://www.geeksforgeeks.org/python-statistics-mean-function/  
+(10)https://www.geeksforgeeks.org/max-min-python/  
+(11)https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.std.html  
+(12)https://www.edureka.co/blog/format-function-in-python/  
+(13)https://pandas.pydata.org/docs/reference/api/pandas.plotting.scatter_matrix.html  
+(14)https://matplotlib.org/3.5.0/gallery/statistics/hist.html  
+
+
