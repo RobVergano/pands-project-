@@ -45,7 +45,7 @@ f = open("summary of variables output.txt","a")
 
 Then, using the pandas module, the "ds" variable will read the iris database and we will be able to extract the data required. (4)
 
-   ds = pd.read_csv("iris.csv")
+``ds = pd.read_csv("iris.csv")´´
 
 Using "groupby", we will check whether the dataset contains 50 samples per class as referenced at the introduction and save it into the text file.(5)
 
