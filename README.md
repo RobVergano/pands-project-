@@ -62,7 +62,7 @@ To obtain a summary of the variables we will use "describe", which generates a d
 print(ds.describe(), file =f)
 ``
 
-Figure 1. Summary of each variable.
+**Figure 1. Summary of each variable.**
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots%20from%20analysis.py/Summary%20of%20each%20variable.png)
 
@@ -84,9 +84,38 @@ slm = round((sl.mean()),2)
   
 Using "format" (12) we output the results for the mean and std for each variable in a single sentence. Similar approach was used to calculate the max and min.  
   
-Figure 2. Summary of mean, std, max and min for each attribute.  
+**Figure 2. Summary of mean, std, max and min for each attribute.**    
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots%20from%20analysis.py/meanstdmaxmin.png)
+
+From this summary, we can observe that:  
+1. On average, sepal length is bigger than petal length for the three species.
+2. On average, sepal width is bigger than petal width for the three species.  
+
+## 6.HISTOGRAM OF EACH VARIABLE  
+
+With the histogram we are going to check how the values for each attribute are distributed between the range of the max and min. Thereby, we will be able to see how many times a certain value occurs within the max/min range.
+
+In order to do that, we are going to import matplotlib module and the scatter matrix from pandas.(13)(14)
+
+``import matplotlib.pyplot as plt 
+``
+``
+from pandas.plotting import scatter_matrix 
+``
+
+Then we will use the "hist" function to create the histogram.(14)
+``
+ds.hist(figsize=(12,8))
+``
+
+**Figure 3. Histogram of each variable.**
+
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Histogram/Histogram.png)
+
+
+
+
 
 
 
@@ -110,3 +139,5 @@ REFERENCES
 (10)https://www.geeksforgeeks.org/max-min-python/
 (11)https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.std.html
 (12)https://www.edureka.co/blog/format-function-in-python/
+(13)https://pandas.pydata.org/docs/reference/api/pandas.plotting.scatter_matrix.html
+(14)https://matplotlib.org/3.5.0/gallery/statistics/hist.html
