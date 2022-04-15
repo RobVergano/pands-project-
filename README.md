@@ -86,7 +86,7 @@ Using "format" (12) we output the results for the mean and std for each variable
   
 Figure 2. Summary of mean, std, max and min for each attribute.  
 
-![alt text] (https://github.com/RobVergano/pands-project-/blob/main/Screenshots%20from%20analysis.py/meanstdmaxmin.png)
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots%20from%20analysis.py/meanstdmaxmin.png)
 
 
 
