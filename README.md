@@ -62,13 +62,20 @@ To obtain a summary of the variables we will use "describe", which generates a d
 print(ds.describe(), file =f)
 ``
 
+Figure 1. Summary of each variable.
+
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots%20from%20analysis.py/Summary%20of%20each%20variable.png)
 
+In order to give a neat appearance to the results I decided to calculate separately the mean, standard deviation, max and min. 
 
+First, creating a variable for the dataframe of each attribute.(7)
 
-
-
-
+``
+sl = ds["sepal_length"]
+sw = ds["sepal_width"]
+pl = ds["petal_length"]
+pw = ds["petal_width"]
+``
 
 
 
@@ -82,3 +89,5 @@ References
 (4) https://www.w3schools.com/python/pandas/pandas_csv.asp  
 (5) https://www.geeksforgeeks.org/python-pandas-dataframe-groupby/  
 (6) https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html  
+(7) https://pandas.pydata.org/docs/user_guide/indexing.html
+
