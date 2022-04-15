@@ -1,6 +1,6 @@
 IRIS DATASET PROJECT
 
-1.PROJECT OBJECTIVES
+# 1.PROJECT OBJECTIVES (an<h1>tag)
 
  1. Research the dataset online and write a summary about it in your README.
  2. Download the dataset and add it to the repository.
@@ -54,7 +54,7 @@ To obtain a summary of the variables we will use "describe", which generates a d
 
    print(ds.describe(), file =f)
 
-   
+
 
 
 
