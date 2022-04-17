@@ -118,10 +118,17 @@ The histogram shows a high variety in the values distribution, which it may be r
 
 ## 7. SCATTER PLOT OF EACH PAIR OF VARIABLES
 
+Scatter plots are used to observe relationship between variables. With the Pandas module we can create a matrix comparing each pair of attributes.(15)
 
 ``
 pd.plotting.scatter_matrix(ds)
-```
+``
+
+**Figure 4. Scatter plot of each pair of variables**
+
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Scatter%20plot%20figures/Scatter%20plot.png)
+
+
 
 
 
@@ -142,5 +149,7 @@ REFERENCES
 (12)https://www.edureka.co/blog/format-function-in-python/  
 (13)https://pandas.pydata.org/docs/reference/api/pandas.plotting.scatter_matrix.html  
 (14)https://matplotlib.org/3.5.0/gallery/statistics/hist.html  
+(15)https://pandas.pydata.org/docs/reference/api/pandas.plotting.scatter_matrix.html
+
 
 
