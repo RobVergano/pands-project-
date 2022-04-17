@@ -191,7 +191,12 @@ From this analysis we can clearly see that there are differences among the attri
 
 
 
-![alt text](https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Petal%20length%20mean%20by%20class.png)(https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Petal%20width%20mean%20by%20class.png)
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Petal%20length%20mean%20by%20class.png)
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Petal%20width%20mean%20by%20class.png)
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Sepal%20length%20mean%20by%20class.png)
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Sepal%20width%20mean%20by%20class.png)
+
+
 
 
 REFERENCES
