@@ -183,7 +183,15 @@ print(setosa.describe(),file=f)
 ``
 for each class. We obtain a summary of each attribute by class (Figure 6).
 
+**Figure 6. Summary of each attribute by class.**
 
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots%20from%20analysis.py/descriptive%20analysis%20by%20class.png)
+
+From this analysis we can clearly see that there are differences among the attributes for each class. Particulary for petal length and petal width. 
+
+
+
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Petal%20length%20mean%20by%20class.png)(https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Petal%20width%20mean%20by%20class.png)
 
 
 REFERENCES
