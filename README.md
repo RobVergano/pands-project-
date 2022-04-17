@@ -132,7 +132,7 @@ pd.plotting.scatter_matrix(ds)
 The scatter plot shows:  
 1. Sepal length and petal length shows an uphill trend, but the relationship is not strong and inconclusive.  
 2. There isa  positive relationship between sepal length and petal length. A potential linear progression is observed, however, the trend is weak.  
-3. Petal length and petal width shows the strongest relationship, an uphill linear progression which it seems to be divided in two sections. This could be related to the differences among species.
+3. Petal length and petal width shows the strongest relationship, an uphill linear progression which it seems to be divided in two sections. 
 
 Figure 5 shows the trendline between petal length and petal width.(16)
 
@@ -151,7 +151,31 @@ plt.plot(pl,p(pl),"r--")
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Scatter%20plot%20figures/Petal%20length%20vs%20Petal%20width%20scatter%20plot.png)
 
 
+**Conclusions from the attributes analysis:**  
 
+1. The strongest relationship found among the attributes is petal length/petal width, showing that the length of the petal is proportional to petal width. The trend is divided in two sections, which it could be related to the differences among species.
+2. Other attribute relationships are inconclusive.
+
+The next steps in this analysis will be:
+
+1. To observe how the different Iris species impact on the attributes.
+2. To check if the relationship petal length/width is due to the Iris species.
+
+## 8. DESCRIPTIVE ANALYSIS BY IRIS CLASS.
+
+Since the dataset is organized by attributes, we will have to make sure we extract the data only by class.
+
+For this task, we will have to slice the dataset by class. Knowing that we have 50 samples per class in the dataset, we can slice by class as follows.(17)
+
+``
+setosa = ds[0:50]
+``  
+``
+versicolor = ds[50:100]
+``  
+``
+virginica = ds[100:150]
+``  
 
 
 
@@ -174,6 +198,8 @@ REFERENCES
 (14)https://matplotlib.org/3.5.0/gallery/statistics/hist.html  
 (15)https://pandas.pydata.org/docs/reference/api/pandas.plotting.scatter_matrix.html  
 (16)https://stackoverflow.com/questions/41635448/how-can-i-draw-scatter-trend-line-on-matplot-python-pandas  
+(17)https://datacarpentry.org/python-ecology-lesson/03-index-slice-subset/index.html
+
 
 
 
