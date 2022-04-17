@@ -7,7 +7,9 @@
 # ds = iris dataset
 
 import pandas as pd
+import numpy as np
 from regex import F
+from sympy import deg
 
 f = open("summary of variables output.txt","a") 
 ds = pd.read_csv("iris.csv")
@@ -83,7 +85,11 @@ plt.scatter(pl,pw, c="green")
 plt.title("Petal length vs Petal width")
 plt.xlabel("Petal length (cm)")
 plt.ylabel("Petal width (cm)")
+z = np.polyfit(pl, pw, 1)
+p = np.poly1d(z)
+plt.plot(pl,p(pl),"r--")
 plt.show()
+
 
 # DESCRIPTIVE ANALYSIS BY CLASS
 

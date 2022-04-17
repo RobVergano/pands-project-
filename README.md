@@ -114,7 +114,7 @@ ds.hist(figsize=(12,8))
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Histogram/Histogram.png)
 
-The histogram shows a high variety in the values distribution, which it may be related to the differences between species.
+The histogram shows a high variety in the values distribution, which it may be related to the differences among species.
 
 ## 7. SCATTER PLOT OF EACH PAIR OF VARIABLES
 
@@ -124,9 +124,20 @@ Scatter plots are used to observe relationship between variables. With the Panda
 pd.plotting.scatter_matrix(ds)
 ``
 
-**Figure 4. Scatter plot of each pair of variables**
+**Figure 4. Scatter plot of each pair of variables.**
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Scatter%20plot%20figures/Scatter%20plot.png)
+
+
+The scatter plot shows:  
+1. Sepal length and petal length shows an uphill trend, but the relationship is not strong and inconclusive.  
+2. There isa  positive relationship between sepal length and petal length. A potential linear progression is observed, however, the trend is weak.  
+3. Petal length and petal width shows the strongest relationship, an uphill linear progression which it seems to be divided in two sections. This could be related to the differences among species (Figure 5).
+
+**Figure 5. Scatter plot Petal length vs Petal width.**
+
+![alt text]()
+
 
 
 
