@@ -116,14 +116,13 @@ ds.hist(figsize=(12,8))
 
 The histogram shows a high variety in the values distribution, which it may be related to the differences between species.
 
-## 7. SCATTER PLOT OF EACH VARIABLE
+## 7. SCATTER PLOT OF EACH PAIR OF VARIABLES
 
+AAAA
 
-
-![alt text](https://github.com/RobVergano/pands-project-/blob/main/Scatter%20plot%20figures/Scatter%20plot.png)
-
-
-
+``
+pd.plotting.scatter_matrix(ds)
+```
 
 
 
@@ -136,7 +135,7 @@ REFERENCES
 (4) https://www.w3schools.com/python/pandas/pandas_csv.asp  
 (5) https://www.geeksforgeeks.org/python-pandas-dataframe-groupby/  
 (6) https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html  
-(7) https://pandas.pydata.org/docs/user_guide/indexing.html
+(7) https://pandas.pydata.org/docs/user_guide/indexing.html  
 (8) https://www.w3schools.com/python/ref_func_round.asp  
 (9) https://www.geeksforgeeks.org/python-statistics-mean-function/  
 (10)https://www.geeksforgeeks.org/max-min-python/  
