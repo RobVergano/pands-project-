@@ -138,13 +138,13 @@ Figure 5 shows the trendline between petal length and petal width.(16)
 
 ``
 z = np.polyfit(pl, pw, 1)
-``
+``  
 ``
 p = np.poly1d(z)
-``
+``  
 ``
 plt.plot(pl,p(pl),"r--")
-``
+``  
 
 **Figure 5. Scatter plot Petal length vs Petal width.**
 
