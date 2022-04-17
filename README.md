@@ -177,6 +177,12 @@ versicolor = ds[50:100]
 virginica = ds[100:150]
 ``  
 
+Using 
+``
+print(setosa.describe(),file=f)
+``
+for each class. We obtain a summary of each attribute by class (Figure 6).
+
 
 
 
