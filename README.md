@@ -118,7 +118,6 @@ The histogram shows a high variety in the values distribution, which it may be r
 
 ## 7. SCATTER PLOT OF EACH PAIR OF VARIABLES
 
-AAAA
 
 ``
 pd.plotting.scatter_matrix(ds)
