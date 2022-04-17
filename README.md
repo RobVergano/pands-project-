@@ -132,11 +132,23 @@ pd.plotting.scatter_matrix(ds)
 The scatter plot shows:  
 1. Sepal length and petal length shows an uphill trend, but the relationship is not strong and inconclusive.  
 2. There isa  positive relationship between sepal length and petal length. A potential linear progression is observed, however, the trend is weak.  
-3. Petal length and petal width shows the strongest relationship, an uphill linear progression which it seems to be divided in two sections. This could be related to the differences among species (Figure 5).
+3. Petal length and petal width shows the strongest relationship, an uphill linear progression which it seems to be divided in two sections. This could be related to the differences among species.
+
+Figure 5 shows the trendline between petal length and petal width.(16)
+
+``
+z = np.polyfit(pl, pw, 1)
+``
+``
+p = np.poly1d(z)
+``
+``
+plt.plot(pl,p(pl),"r--")
+``
 
 **Figure 5. Scatter plot Petal length vs Petal width.**
 
-![alt text]()
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Scatter%20plot%20figures/Petal%20length%20vs%20Petal%20width%20scatter%20plot.png)
 
 
 
@@ -160,7 +172,9 @@ REFERENCES
 (12)https://www.edureka.co/blog/format-function-in-python/  
 (13)https://pandas.pydata.org/docs/reference/api/pandas.plotting.scatter_matrix.html  
 (14)https://matplotlib.org/3.5.0/gallery/statistics/hist.html  
-(15)https://pandas.pydata.org/docs/reference/api/pandas.plotting.scatter_matrix.html
+(15)https://pandas.pydata.org/docs/reference/api/pandas.plotting.scatter_matrix.html  
+(16)https://stackoverflow.com/questions/41635448/how-can-i-draw-scatter-trend-line-on-matplot-python-pandas  
+
 
 
 
