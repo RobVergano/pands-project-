@@ -204,16 +204,32 @@ atm = [],[],[],[]
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots/foriris.png)  
 
-Therefore, if we output the values of the list we can easily access to them in order to do the bar graphs.
+Therefore, if we output the values of the list, we can easily access to them in order to do the bar graphs since each values holds a specific position in the list.
 
 ``
 atm list values[petal length][petal width][sepal length][sepal width]:  ([1.464, 4.26, 5.552], [0.2439999999999999, 1.3259999999999998, 2.026], [5.005999999999999, 5.936, 6.587999999999998], [3.4180000000000006, 2.7700000000000005, 2.9739999999999998])
 ``
 4. The same process will be used to calculate the standar deviation.  
-5. 
+5. Now we have all the data arranged so we can create the bar graph. First, we are going to arrange the data and values for the graph bar.
+``
+data = {"Iris setosa": atm[0][0],"Iris versicolor":atm[0][1],"Iris virginica":atm[0][2]}
+``  
+Then arrange the values for x and y axis.(23)
+``
+type = list(data.keys())
+``  
+``
+values = list(data.values())
+``  
+Finally, we can set up the bar graph adding the standard deviation.(24)
+``
+yerr=ats[0]
+``  
+``
+plt.bar(type,values,yerr=ats[0],color = "lightcoral",width =0.4)
+``
 
-
-![alt text]
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots/petallen.png)
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Petal%20length%20mean%20by%20class.png)
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Petal%20width%20mean%20by%20class.png)
@@ -244,8 +260,11 @@ REFERENCES
 (17)https://datacarpentry.org/python-ecology-lesson/03-index-slice-subset/index.html  
 (18)https://realpython.com/python-lists-tuples/  
 (19)https://www.w3schools.com/python/ref_list_append.asp  
-(20)https://www.geeksforgeeks.org/iterate-over-a-list-in-python/
-(21)https://pandas.pydata.org/docs/user_guide/indexing.html
+(20)https://www.geeksforgeeks.org/iterate-over-a-list-in-python/  
+(21)https://pandas.pydata.org/docs/user_guide/indexing.html  
+(22)https://www.tutorialspoint.com/plot-a-bar-using-matplotlib-using-a-dictionary  
+(23)https://pythonforundergradengineers.com/python-matplotlib-error-bars.html  
+(24) 
 
 
 
