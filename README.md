@@ -206,11 +206,11 @@ For this task we are going to extract the data from the attributes for each Iris
 ``
 iris = [setosa,versicolor,virginica]
 ``
-2. Create a list (atm) where we are going to store the data por the mean for each attribute and class. Each square bracket will store the mean of an attribute for the 3 Iris species.  
+2. Create a list (atm) where we are going to store the data for the mean from each attribute and class. Each square bracket will store the mean of an attribute for the 3 Iris species.  
 ``
 atm = [],[],[],[]
 ``
-3. The next step is to calculate the mean for each attribute and class. Then introduce it in the right place of the list. Using "append" we can easily tell the program where we want our data be introduced.(19) We are going to create a for loop which is going to read the "iris" list (20). Then calculate the mean for the attribute specified (21) and store it in the indicated place in atm list using "append".
+3. The next step is to calculate the mean for each attribute and class. Then introduce it in the right place of the list. Using "append" we can easily tell the program where we want our data be introduced.(19) We are going to create a "for loop" which is going to read the "iris" list (20). Then calculate the mean for the attribute specified (21) and store it in the indicated place in atm list using "append".
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots/foriris.png)  
 
