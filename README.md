@@ -89,6 +89,10 @@ slm = round((sl.mean()),2)
 ``
   
 Using "format" (12) we output the results for the mean and std for each variable in a single sentence. Similar approach was used to calculate the max and min.  
+
+
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots/format.png)  
+
   
 **Figure 2. Summary of mean, std, max and min for each attribute.**    
 
