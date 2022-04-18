@@ -253,6 +253,12 @@ The bar graphs show:
 3. On average, Iris virginica has the biggest sepal length. However, due to the high value of standard deviation, the difference with Iris versicolor might not be very clear.
 4. On average, Iris setosa has the biggest sepal width. However, the results are inconclusive since the high values of standard deviation indicate that the values are spread out over a wider range.
 
+The next step of this analysis will be to compare the distribution of the values for the attributes in each class using a boxplot (Please refer to boxplot.py).  
+
+For the boxplot I carried out a direct approach without using "for loops" to extract the data. 
+
+
+
 
 
 
