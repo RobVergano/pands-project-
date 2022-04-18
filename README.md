@@ -263,7 +263,27 @@ Then I created lists for each attribute which correspond with each of the column
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots/columns.png)
 
+Using the Matplotlib module we create the boxplot for each attribute.(24)
 
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots/subplots.png)
+
+Figures 11,12,13,14 show the boxplots for each attribute.
+
+**Figure 11. Petal length.**  
+
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Boxplot%20figures/petal%20length%20boxplot.png)
+
+**Figure 12. Petal width.**
+
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Boxplot%20figures/petal%20width%20boxplot.png)
+
+**Figure 13. Sepal length.**  
+
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Boxplot%20figures/sepal%20length%20boxplot.png)
+
+**Figure 14. Sepal width.**  
+
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Boxplot%20figures/sepal%20width%20boxplot.png)
 
 
 
@@ -295,7 +315,8 @@ Then I created lists for each attribute which correspond with each of the column
 (21)https://pandas.pydata.org/docs/user_guide/indexing.html  
 (22)https://www.tutorialspoint.com/plot-a-bar-using-matplotlib-using-a-dictionary  
 (23)https://pythonforundergradengineers.com/python-matplotlib-error-bars.html  
-(24) 
+(24)https://matplotlib.org/3.5.0/gallery/statistics/boxplot_color.html  
+
 
 
 
