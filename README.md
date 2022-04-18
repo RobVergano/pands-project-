@@ -32,7 +32,7 @@ The attributes described in the dataset are:
   4. petal width in cm
   5. class: Iris Setosa, Iris Versicolor and Iris Virginica.(2)
 
-Based on these attributes, Fisher developed a linear discriminant analysis where the species can be differenciated from each other.(1)(2)
+Based on these attributes, Fisher developed a linear discriminant analysis where the species can be differentiated from each other.(1)(2)
 
 ## 5. SUMMARY OF EACH VARIABLE.
 
@@ -156,7 +156,7 @@ plt.plot(pl,p(pl),"r--")
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Scatter%20plot%20figures/Petal%20length%20vs%20Petal%20width%20scatter%20plot.png)
 
 
-**Conclusions from the attributes analysis:**  
+**Results from the attributes analysis:**  
 
 1. The strongest relationship found among the attributes is petal length/petal width, showing that the length of the petal is proportional to petal width. The trend is divided in two sections, which it could be related to the differences among species.
 2. Other attribute relationships are inconclusive.
@@ -215,7 +215,7 @@ Therefore, if we output the values of the list, we can easily access to them in 
 ``
 atm list values[petal length][petal width][sepal length][sepal width]:  ([1.464, 4.26, 5.552], [0.2439999999999999, 1.3259999999999998, 2.026], [5.005999999999999, 5.936, 6.587999999999998], [3.4180000000000006, 2.7700000000000005, 2.9739999999999998])  
 ``  
-4. The same process will be used to calculate the standar deviation.  
+4. The same process will be used to calculate the standard deviation.  
 5. Now we have all the data arranged so we can create the bar graph. First, we are going to arrange the data and values for the graph bar.
 ``
 data = {"Iris setosa": atm[0][0],"Iris versicolor":atm[0][1],"Iris virginica":atm[0][2]}
@@ -255,7 +255,7 @@ plt.bar(type,values,yerr=ats[0],color = "lightcoral",width =0.4)
 
 The bar graphs show:
 1. Differences in the attributes for each Iris class. 
-2. On average, petal length and petal width is bigger in Iris virginica. Iris Setosa has the smallest petals. 
+2. On average, petal length and petal width are bigger in Iris virginica. Iris Setosa has the smallest petals. 
 3. On average, Iris virginica has the biggest sepal length. However, due to the high value of standard deviation, the difference with Iris versicolor might not be very clear.
 4. On average, Iris setosa has the biggest sepal width. However, the results are inconclusive since the high values of standard deviation indicate that the values are spread out over a wider range.
 
@@ -292,7 +292,7 @@ Figures 11,12,13,14 show the boxplots for each attribute.
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Boxplot%20figures/sepal%20width%20boxplot.png)
 
 The boxplots show:
-1. There is an homogeneous distribution for petal length and width values in each class.
+1. There is a homogeneous distribution for petal length and width values in each class.
 2. Sepal length is slightly different among Iris species, however many of the values fall outside the Interquartile Range.
 3. Sepal width values are spread out across the range for Iris setosa and Iris versicolor. 
 
@@ -302,7 +302,7 @@ The Iris dataset is one of the best known database available in the pattern reco
 
 This was reflected in Figure 3, where we could see how the values for the attributes were spread out the range. Some attributes like sepal width had a distribution which may indicate that the values are similar across the Iris species. Instead, petal length and petal width showed a distribution of values in two sections of the histogram, indicating potential differences among species.  
 
-An analysys of each pair of variables showed a linear relationship between both attributes (petal length and width) (Figure 5), where it seems to be a relation between the length and width of the petal for the three Iris species. Whether this relationship can be used as classification feature is not known unless we perform an analysis of the attributes by class. 
+An analysis of each pair of variables showed a linear relationship between both attributes (petal length and width) (Figure 5), where it seems to be a relation between the length and width of the petal for the three Iris species. Whether this relationship can be used as classification feature is not known unless we perform an analysis of the attributes by class. 
 
 For this reason, the mean of each attribute was compared against the other species. Figure 7 and 8 showed that petal length and petal width are good classification features for the Iris species since there is a clear difference among species. On the other hand, Figures 9 and 10 showed that sepal length and sepal width are not good classification features due to the similarity among the three species.  
 
@@ -310,7 +310,7 @@ To confirm these results, an analysis of the distribution of each attribute valu
 
 There are similar projects to this one. However the level of complexity can vary from using different ways to visualize the distributions and correlations (25)(26), or even to apply machine learning concepts.(27)  
 
-In conclusion, an analysis of the attributes for the three species can give us an insight of the Iris species which may be useful to compare against other flower species. However, this approach disregards the that some attributes, like petal length, are intrinsic to their own class. This means that an analysis by class may be a better approach in order to understant the Iris species.  
+In conclusion, an analysis of the attributes for the three species can give us an insight of the Iris species which may be useful to compare against other flower species. However, this approach disregards the that some attributes, like petal length, are intrinsic to their own class. This means that an analysis by class may be a better approach in order to understand the Iris species.  
 
 **REFERENCES**
 
