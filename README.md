@@ -4,9 +4,9 @@
 
 1. Research the dataset online and write a summary about it in your README.
 2. Download the dataset and add it to the repository.
-3. Write a program called analysiss.py that:
+3. Write a program called analysis.py that:
     1. Outputs a summary of each variable to a single txt file.
-    2. Saves a histogram of each variable to png files, and
+    2. Saves an histogram of each variable to png files, and
     3. Outputs a scatter plot of each pair of variables.
 4. Performs any other analysis you think is appropriate.
 
@@ -38,7 +38,7 @@ Based on these attributes, Fisher developed a linear discriminant analysis where
 
 The Iris database was downloaded (2) and added to the Pands-project repository.
 
-For the first task, I created a text file (3) where the summary of the variables will go.  
+For the first task, I created a text file (3) for the summary of the variables.
 
 ``  
 f = open("summary of variables output.txt","a")
@@ -72,10 +72,16 @@ First, creating a variable for the dataframe of each attribute.(7)
 
 ``
 sl = ds["sepal_length"]
-sw = ds["sepal_width"]  
-pl = ds["petal_length"]
-pw = ds["petal_width"]
 ``  
+``
+sw = ds["sepal_width"]  
+``  
+``
+pl = ds["petal_length"]
+``  
+``
+pw = ds["petal_width"]
+``    
 
 Then calculating the mean,std, max and min to up to 2 decimals (8)(9)(10)(11)  
 ``
@@ -263,7 +269,7 @@ Then I created lists for each attribute which correspond with each of the column
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots/columns.png)
 
-Using the Matplotlib module we create the boxplot for each attribute.(24)
+Using the Matplotlib module I created the boxplot for each attribute.(24)
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots/subplots.png)
 
@@ -292,8 +298,19 @@ The boxplots show:
 
 # 9. DISCUSSION 
 
+The Iris dataset is one of the best known database available in the pattern recognition literature.(2) This project started analysing four attributes of the Iris species (sepal length, sepal width, petal length and petal width). However, this analysis by attribute showed an overall description of the Iris species without going into differences among species.  
 
+This was reflected in Figure 3, where we could see how the values for the attributes were spread out the range. Some attributes like sepal width had a distribution which may indicate that the values are similar across the Iris species. Instead, petal length and petal width showed a distribution of values in two sections of the histogram, indicating potential differences among species.  
 
+An analysys of each pair of variables showed a linear relationship between both attributes (petal length and width) (Figure 5), where it seems to be a relation between the length and width of the petal for the three Iris species. Whether this relationship can be used as classification feature is not known unless we perform an analysis of the attributes by class. 
+
+For this reason, the mean of each attribute was compared against the other species. Figure 7 and 8 showed that petal length and petal width are good classification features for the Iris species since there is a clear difference among species. On the other hand, Figures 9 and 10 showed that sepal length and sepal width are not good classification features due to the similarity among the three species.  
+
+To confirm these results, an analysis of the distribution of each attribute values was done. Figures 11 and 12 showed how the values for petal length and width are grouped within the same ranges for each class, which indicates that these features can be used to define the class. Figure 13 showed a similar distribution between Iris versicolor and Iris virgina for the sepal length attribute, and a slightly bigger difference with Iris setosa. Figure 14 showed an overlap in the same range of values for the sepal width attribute in the 3 Iris species, so we cannot consider it a good classification feature.  
+
+There are similar projects to this one. However the level of complexity can vary from using different ways to visualize the distributions and correlations (25)(26), or even to apply machine learning concepts.(27)  
+
+In conclusion, an analysis of the attributes for the three species can give us an insight of the Iris species which may be useful to compare against other flower species. However, this approach disregards the that some attributes, like petal length, are intrinsic to their own class. This means that an analysis by class may be a better approach in order to understant the Iris species.  
 
 **REFERENCES**
 
@@ -321,8 +338,9 @@ The boxplots show:
 (22)https://www.tutorialspoint.com/plot-a-bar-using-matplotlib-using-a-dictionary  
 (23)https://pythonforundergradengineers.com/python-matplotlib-error-bars.html  
 (24)https://matplotlib.org/3.5.0/gallery/statistics/boxplot_color.html  
-
-
+(25)https://deepnote.com/@haitam-borqane/Iris-Dataset-Analysis-and-Classification-M3EYjrkERGG7iJB8bL4cFA  
+(26)https://medium.com/analytics-vidhya/exploratory-data-analysis-iris-dataset-4df6f045cda  
+(27)https://rpubs.com/rpadebet/269829  
 
 
 
