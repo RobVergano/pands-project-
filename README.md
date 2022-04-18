@@ -314,11 +314,11 @@ An analysis of each pair of variables showed a linear relationship between both 
 
 For this reason, the mean of each attribute was compared against the other species. Figure 7 and 8 showed that petal length and petal width are good classification features for the Iris species since there is a clear difference among species. On the other hand, Figures 9 and 10 showed that sepal length and sepal width are not good classification features due to the similarity among the three species.  
 
-To confirm these results, an analysis of the distribution of each attribute values was done. Figures 11 and 12 showed how the values for petal length and width are grouped within the same ranges for each class, which indicates that these features can be used to define the class. Figure 13 showed a similar distribution between Iris versicolor and Iris virgina for the sepal length attribute, and a slightly bigger difference with Iris setosa. Figure 14 showed an overlap in the same range of values for the sepal width attribute in the 3 Iris species, so we cannot consider it a good classification feature.  
+To confirm these results, an analysis of the value distribution for each attribute was done. Figures 11 and 12 showed how the values for petal length and width are grouped within the same ranges for each class, which indicates that these features can be used to define the class. Figure 13 showed a similar distribution between Iris versicolor and Iris virgina for the sepal length attribute, and a slightly bigger difference with Iris setosa. Figure 14 showed an overlap in the same range of values for the sepal width attribute in the 3 Iris species, so we cannot consider it a good classification feature.  
 
 There are similar projects to this one. However the level of complexity can vary from using different ways to visualize the distributions and correlations (25)(26), or even to apply machine learning concepts.(27)  
 
-In conclusion, an analysis of the attributes for the three species can give us an insight of the Iris species which may be useful to compare against other flower species. However, this approach disregards the that some attributes, like petal length, are intrinsic to their own class. This means that an analysis by class may be a better approach in order to understand the Iris species.  
+In conclusion, an analysis of the attributes for the three species can give us an insight of the Iris species which may be useful to compare against other flower species. However, this approach disregards the fact that some attributes, like petal length, are intrinsic to their own class. This means that an analysis by class may be a better approach in order to understand the Iris species.  
 
 **REFERENCES**
 
