@@ -89,3 +89,5 @@ plt.bar(type3,values3,yerr=ats[3],color ="lightgreen", width=0.4)
 plt.title("Sepal width mean")
 plt.ylabel("Sepal width (cm)/sd")
 plt.show()
+
+print("atm list values[petal length][petal width][sepal length][sepal width]: ",atm)

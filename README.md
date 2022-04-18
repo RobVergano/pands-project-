@@ -200,12 +200,15 @@ iris = [setosa,versicolor,virginica]
 ``
 atm = [],[],[],[]
 ``
-3. The next step is to calculate the mean for each attribute and class. Then introduce it in the right place of the list. Using "append" we can easily tell the program where we want our data be introduced.(19)
+3. The next step is to calculate the mean for each attribute and class. Then introduce it in the right place of the list. Using "append" we can easily tell the program where we want our data be introduced.(19) We are going to create a for loop which is going to read the "iris" list (20). Then calculate the mean for the attribute specified and store it in the indicated place in atm list. 
 
-We are going to create a for loop which is going to read the "iris" list. Then calculate the mean for the attribute specified and store it in the indicated place in atm list. 
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots/foriris.png)  
 
-![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots/foriris.png)
+Therefore, if we output the values of the list we can easily access to them in order to do the bar graphs.
 
+``
+atm list values[petal length][petal width][sepal length][sepal width]:  ([1.464, 4.26, 5.552], [0.2439999999999999, 1.3259999999999998, 2.026], [5.005999999999999, 5.936, 6.587999999999998], [3.4180000000000006, 2.7700000000000005, 2.9739999999999998])
+``
 
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Petal%20length%20mean%20by%20class.png)
@@ -237,6 +240,7 @@ REFERENCES
 (17)https://datacarpentry.org/python-ecology-lesson/03-index-slice-subset/index.html  
 (18)https://realpython.com/python-lists-tuples/  
 (19)https://www.w3schools.com/python/ref_list_append.asp  
+(20)https://www.geeksforgeeks.org/iterate-over-a-list-in-python/
 
 
 
