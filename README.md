@@ -221,7 +221,7 @@ type = list(data.keys())
 ``
 values = list(data.values())
 ``  
-Finally, we can set up the bar graph adding the standard deviation.(24)
+6. Finally, we can set up the bar graph adding the standard deviation.(24)  
 ``
 yerr=ats[0]
 ``  
@@ -229,12 +229,25 @@ yerr=ats[0]
 plt.bar(type,values,yerr=ats[0],color = "lightcoral",width =0.4)
 ``
 
-![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots/petallen.png)
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots/petallen.png)  
+
+**Figure 7. Petal length mean by class.**
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Petal%20length%20mean%20by%20class.png)
+
+**Figure 8. Petal width mean by class.**
+
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Petal%20width%20mean%20by%20class.png)
+
+**Figure 9. Sepal length mean by class.**
+
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Sepal%20length%20mean%20by%20class.png)
+
+**Figure 10. Sepal width mean by class.**
+
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Sepal%20width%20mean%20by%20class.png)
+
+
 
 
 
