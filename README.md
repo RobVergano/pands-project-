@@ -247,12 +247,16 @@ plt.bar(type,values,yerr=ats[0],color = "lightcoral",width =0.4)
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Bargraph%20figures/Sepal%20width%20mean%20by%20class.png)
 
+The bar graphs show:
+1. Differences in the attributes for each Iris class. 
+2. On average, petal length and petal width is bigger in Iris virginica. Iris Setosa has the smallest petals. 
+3. On average, Iris virginica has the biggest sepal length. However, due to the high value of standard deviation, the difference with Iris versicolor might not be very clear.
+4. On average, Iris setosa has the biggest sepal width. However, the results are inconclusive since the high values of standard deviation indicate that the values are spread out over a wider range.
 
 
 
 
-
-REFERENCES
+**REFERENCES**
 
 (1) https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x  
 (2) https://archive.ics.uci.edu/ml/datasets/iris  
