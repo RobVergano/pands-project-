@@ -285,7 +285,12 @@ Figures 11,12,13,14 show the boxplots for each attribute.
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Boxplot%20figures/sepal%20width%20boxplot.png)
 
+The boxplots show:
+1. There is an homogeneous distribution for petal length and width values in each class.
+2. Sepal length is slightly different among Iris species, however many of the values fall outside the Interquartile Range.
+3. Sepal width values are spread out across the range for Iris setosa and Iris versicolor. 
 
+# 9. DISCUSSION 
 
 
 
