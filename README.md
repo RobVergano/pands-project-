@@ -208,7 +208,7 @@ Therefore, if we output the values of the list, we can easily access to them in 
 
 ``
 atm list values[petal length][petal width][sepal length][sepal width]:  ([1.464, 4.26, 5.552], [0.2439999999999999, 1.3259999999999998, 2.026], [5.005999999999999, 5.936, 6.587999999999998], [3.4180000000000006, 2.7700000000000005, 2.9739999999999998])  
-``
+``  
 4. The same process will be used to calculate the standar deviation.  
 5. Now we have all the data arranged so we can create the bar graph. First, we are going to arrange the data and values for the graph bar.
 ``
