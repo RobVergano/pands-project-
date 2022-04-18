@@ -257,6 +257,14 @@ The next step of this analysis will be to compare the distribution of the values
 
 For the boxplot I carried out a direct approach without using "for loops" to extract the data. 
 
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots/setosaversicolor.png)
+
+Then I created lists for each attribute which correspond with each of the columns in the boxplot.  
+
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots/columns.png)
+
+
+
 
 
 
