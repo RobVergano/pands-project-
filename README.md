@@ -130,9 +130,8 @@ pd.plotting.scatter_matrix(ds)
 
 
 The scatter plot shows:  
-1. Sepal length and petal length shows an uphill trend, but the relationship is not strong and inconclusive.  
-2. There isa  positive relationship between sepal length and petal length. A potential linear progression is observed, however, the trend is weak.  
-3. Petal length and petal width shows the strongest relationship, an uphill linear progression which it seems to be divided in two sections. 
+1. Sepal length and petal length shows an uphill trend. A potential linear progression is observed, but the relationship is not strong and inconclusive.    
+2. Petal length and petal width shows the strongest relationship, an uphill linear progression which it seems to be divided in two sections. 
 
 Figure 5 shows the trendline between petal length and petal width.(16)
 
@@ -159,7 +158,7 @@ plt.plot(pl,p(pl),"r--")
 The next steps in this analysis will be:
 
 1. To observe how the different Iris species impact on the attributes.
-2. To check if the relationship petal length/width is due to the Iris species.
+2. To check if the two sections observed in the relationship petal length/width is due to the Iris species.
 
 ## 8. DESCRIPTIVE ANALYSIS BY IRIS CLASS.
 
@@ -187,7 +186,23 @@ for each class. We obtain a summary of each attribute by class (Figure 6).
 
 ![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots%20from%20analysis.py/descriptive%20analysis%20by%20class.png)
 
-From this analysis we can clearly see that there are differences among the attributes for each class. Particulary for petal length and petal width. 
+From this analysis we can clearly see that there are differences among the attributes for each class. Particulary for petal length and petal width.  
+
+For a better comparison and visual representation of the data, we will create bar graphs of each attribute based on the mean and by class.
+
+For this task we are going to extract the data from the attributes for each Iris class (Please refer to bargraph.py). The followed steps were:  
+
+1. Create a list with the dataframes for each Iris class.(18)  
+``
+iris = [setosa,versicolor,virginica]
+``
+2. Create a list (atm) where we are going to store the data por the mean for each attribute and class. Each square bracket will store the mean of an attribute for the 3 Iris species.  
+``
+atm = [],[],[],[]
+``
+3. The next step is to calculate the mean for each attribute and class. Then introduce it in the right place of the list. Using "append" we can easily tell the program where we want our data be introduced.
+
+![alt text]()
 
 
 
@@ -217,7 +232,11 @@ REFERENCES
 (14)https://matplotlib.org/3.5.0/gallery/statistics/hist.html  
 (15)https://pandas.pydata.org/docs/reference/api/pandas.plotting.scatter_matrix.html  
 (16)https://stackoverflow.com/questions/41635448/how-can-i-draw-scatter-trend-line-on-matplot-python-pandas  
-(17)https://datacarpentry.org/python-ecology-lesson/03-index-slice-subset/index.html
+(17)https://datacarpentry.org/python-ecology-lesson/03-index-slice-subset/index.html  
+(18)https://realpython.com/python-lists-tuples/
+(19)https://www.w3schools.com/python/ref_list_append.asp
+
+
 
 
 
