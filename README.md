@@ -200,9 +200,11 @@ iris = [setosa,versicolor,virginica]
 ``
 atm = [],[],[],[]
 ``
-3. The next step is to calculate the mean for each attribute and class. Then introduce it in the right place of the list. Using "append" we can easily tell the program where we want our data be introduced.
+3. The next step is to calculate the mean for each attribute and class. Then introduce it in the right place of the list. Using "append" we can easily tell the program where we want our data be introduced.(19)
 
-![alt text]()
+We are going to create a for loop which is going to read the "iris" list. Then calculate the mean for the attribute specified and store it in the indicated place in atm list. 
+
+![alt text](https://github.com/RobVergano/pands-project-/blob/main/Screenshots/foriris.png)
 
 
 
@@ -233,8 +235,9 @@ REFERENCES
 (15)https://pandas.pydata.org/docs/reference/api/pandas.plotting.scatter_matrix.html  
 (16)https://stackoverflow.com/questions/41635448/how-can-i-draw-scatter-trend-line-on-matplot-python-pandas  
 (17)https://datacarpentry.org/python-ecology-lesson/03-index-slice-subset/index.html  
-(18)https://realpython.com/python-lists-tuples/
-(19)https://www.w3schools.com/python/ref_list_append.asp
+(18)https://realpython.com/python-lists-tuples/  
+(19)https://www.w3schools.com/python/ref_list_append.asp  
+
 
 
 
